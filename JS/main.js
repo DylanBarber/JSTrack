@@ -11,7 +11,8 @@ if (endIter <= highNumber && endIter >= lowNumber && lowNumber < highNumber) {
     console.log(i);
     if (i === endIter) {
         document.write('<p>Desired number reached at iteration: ' + counter + '</p><br>')
-        document.write('<b><p>You can check the iterations that were ran in the console</p></b>')
+        document.write('<b><p>You can check the iterations that were ran in the console</p></b><br>')
+        document.write('<b><p>Reload your webpage to run the program again</p></b>')
     }
     };
 } else {
